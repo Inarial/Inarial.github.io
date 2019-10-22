@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Grenze|Pacifico&display=swap&subset=cyrillic,cyrillic-ext');
+
+.pic {
+  margin-right: 20px;
+  justify-content: space-around;
+
+}
+
+.content {
+  display: flex;
+}
+
+.conteiner {}
+
+h2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.java {
+	 width: 250px;
+    height: 250px;
+    
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Информация обо мне любимой</title>
+<link rel="stylesheet"  href="style.css">
+
+<script type="text/javascript" src="jquery.maskedinput.js"></script>
+
+</head>
+<body>
+	<div class="infa" width="100%" border="1">
+		<div class="content">
+			<div class="pic">
+				<img src="image/1.jpg" height="350">
+			</div>
+			<div class="cot">
+				<h1>Игнатенко Маргарита</h1>
+				<p>Адрес:Комсомольский проспект 49-14</p>
+				<p>Опыт работы: нет :р</p>
+				<p>Телефон: +7 (908) 934-99-29</p>
+			</div>
+		</div>
+		<br>
+		<h2>Что то вот что:</h2>
+		<div class="conteiner">
+			<table align="center" border="1" width="60%">
+				<tr>
+					<th></th>
+					<th>Java</th>
+					<th>JavaScript</th>
+					<th>C++</th>
+					<th>C#</th>
+					<th>html и css</th>
+				</tr>
+				<tr>
+					<td>Отличное владение</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Хорошее владение</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>+</td>
+					<td>+</td>
+				</tr>
+				<tr>
+					<td>плохое владение</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Не знание</td>
+					<td>(ಥ﹏ಥ)</td>
+					<td>(ಥ﹏ಥ)</td>
+					<td>(ಥ﹏ಥ)</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+      </div>
+   </div>
+
+
+   
+   	<div class="java" align="]center">
+   <h3>Телефон</h3>
+     <script src="js/jquery.maskedinput.js"></script>
+     <input type="text" placeholder="+7(999)999-99-99" class="phone_mask">
+     <script>
+         $(".phone_mask").mask("+7(999)999-99-99");
+     </script>
+     <p><h3>Имя</h3></p>
+     <script src="js/jquery.maskedinput.js"></script>
+     <input type="text" placeholder="Имя" class="name_mask">
+     <script>
+         $(".name_mask").mask("Маргарита");
+     </script>
+     </div>
+</body>
+</html>
